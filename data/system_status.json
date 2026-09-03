@@ -1,0 +1,7 @@
+[
+  {"service_name": "VPN", "status": "Operational", "last_updated": "2026-08-30T09:00:00", "details": "All VPN gateways operating normally."},
+  {"service_name": "Email", "status": "Operational", "last_updated": "2026-08-30T09:00:00", "details": "Email services running normally."},
+  {"service_name": "WiFi", "status": "Degraded", "last_updated": "2026-09-01T07:30:00", "details": "Intermittent slowness reported on the 3rd floor access points; network team investigating."},
+  {"service_name": "Printers", "status": "Operational", "last_updated": "2026-08-29T12:00:00", "details": "All networked printers online."},
+  {"service_name": "HR Portal", "status": "Outage", "last_updated": "2026-09-01T06:00:00", "details": "HR portal is currently down for scheduled maintenance until 12:00 PM."}
+]

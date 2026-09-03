@@ -1,0 +1,8 @@
+[
+  {"employee_id": "EMP1001", "name": "Alice Johnson", "department": "Finance", "email": "alice.johnson@company.com", "role": "Financial Analyst"},
+  {"employee_id": "EMP1002", "name": "Brian Lee", "department": "Sales", "email": "brian.lee@company.com", "role": "Account Executive"},
+  {"employee_id": "EMP1003", "name": "Carla Gomez", "department": "Engineering", "email": "carla.gomez@company.com", "role": "Software Engineer"},
+  {"employee_id": "EMP1004", "name": "David Kim", "department": "Human Resources", "email": "david.kim@company.com", "role": "HR Specialist"},
+  {"employee_id": "EMP1024", "name": "Emma Watson", "department": "Marketing", "email": "emma.watson@company.com", "role": "Marketing Manager"},
+  {"employee_id": "EMP1030", "name": "Farhan Ali", "department": "Engineering", "email": "farhan.ali@company.com", "role": "DevOps Engineer"}
+]

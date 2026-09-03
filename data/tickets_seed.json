@@ -1,0 +1,7 @@
+[
+  {"ticket_id": "TCK-1001", "employee_id": "EMP1024", "category": "Hardware", "description": "Laptop screen flickering intermittently.", "status": "In Progress", "priority": "Medium", "created_at": "2026-08-25T10:15:00", "updated_at": "2026-08-27T14:00:00"},
+  {"ticket_id": "TCK-1002", "employee_id": "EMP1003", "category": "Network", "description": "Cannot connect to office Wi-Fi from the 3rd floor.", "status": "Open", "priority": "Low", "created_at": "2026-08-28T09:00:00", "updated_at": "2026-08-28T09:00:00"},
+  {"ticket_id": "TCK-1003", "employee_id": "EMP1002", "category": "Software", "description": "Need Adobe Acrobat Pro installed for contract signing.", "status": "Resolved", "priority": "Low", "created_at": "2026-08-20T11:30:00", "updated_at": "2026-08-22T16:45:00"},
+  {"ticket_id": "TCK-1004", "employee_id": "EMP1024", "category": "VPN", "description": "VPN disconnects randomly every 10 minutes.", "status": "Open", "priority": "High", "created_at": "2026-08-30T08:00:00", "updated_at": "2026-08-30T08:00:00"},
+  {"ticket_id": "TCK-1005", "employee_id": "EMP1030", "category": "Security", "description": "Not receiving MFA push notifications on new phone.", "status": "Open", "priority": "High", "created_at": "2026-08-31T13:20:00", "updated_at": "2026-08-31T13:20:00"}
+]

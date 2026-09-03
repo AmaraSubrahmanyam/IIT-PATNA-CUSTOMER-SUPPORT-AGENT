@@ -1,0 +1,8 @@
+streamlit>=1.32.0
+langchain>=0.2.11
+langchain-core>=0.2.24
+langgraph>=0.1.16
+langchain-openai>=0.1.17
+langchain-google-genai>=1.0.8
+python-dotenv>=1.0.1
+typing_extensions>=4.9.0

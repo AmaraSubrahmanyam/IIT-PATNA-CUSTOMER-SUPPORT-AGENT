@@ -1,0 +1,44 @@
+[
+  {
+    "article_id": "KB001",
+    "title": "How to Reset Your VPN Password",
+    "category": "VPN",
+    "keywords": ["vpn", "password", "reset", "remote", "access", "connect", "login"],
+    "content": "To reset your VPN password: 1) Go to the company self-service portal at portal.company.com/reset. 2) Click 'Forgot Password' under the VPN section. 3) Enter your employee email and complete the OTP verification sent to your registered email. 4) Set a new password (minimum 12 characters, must include a number and a symbol). 5) Restart your VPN client and log in with the new password. If the issue persists after 3 attempts, please raise a support ticket."
+  },
+  {
+    "article_id": "KB002",
+    "title": "Laptop Won't Turn On - Troubleshooting Steps",
+    "category": "Hardware",
+    "keywords": ["laptop", "power", "turn", "battery", "boot", "hardware", "screen"],
+    "content": "If your laptop won't turn on: 1) Confirm the charger is plugged in and the LED indicator is lit. 2) Hold the power button for 15 seconds to force a hard reset. 3) Try a different power outlet. 4) Remove any connected peripherals and retry. If the laptop still doesn't power on, this is likely a hardware fault and a support ticket should be raised for a technician visit or replacement."
+  },
+  {
+    "article_id": "KB003",
+    "title": "Setting Up Company Email on Mobile Devices",
+    "category": "Email",
+    "keywords": ["email", "outlook", "mobile", "phone", "setup", "sync", "mailbox"],
+    "content": "To set up your company email on a mobile device: 1) Install Microsoft Outlook from the App Store/Play Store. 2) Sign in with your company email address. 3) When prompted, complete multi-factor authentication using the Authenticator app. 4) Allow the app to sync; this may take a few minutes on first setup."
+  },
+  {
+    "article_id": "KB004",
+    "title": "Resolving Slow Wi-Fi / Network Connectivity Issues",
+    "category": "Network",
+    "keywords": ["wifi", "wi-fi", "network", "slow", "internet", "connectivity", "lan"],
+    "content": "For slow Wi-Fi: 1) Restart your router/access point. 2) Forget and reconnect to the 'Company-WiFi' network. 3) Run the built-in network diagnostics tool in Settings > Network. 4) Move closer to the nearest access point. 5) If issues persist across multiple locations this may indicate a broader network outage - check system status or raise a ticket."
+  },
+  {
+    "article_id": "KB005",
+    "title": "Requesting Software Installation",
+    "category": "Software",
+    "keywords": ["software", "install", "application", "request", "license", "app"],
+    "content": "Standard approved software can be self-installed via the Company Software Center. For software not listed, submit a support ticket including the software name, business justification, and your manager's approval. Installation typically completes within 2 business days after approval."
+  },
+  {
+    "article_id": "KB006",
+    "title": "Multi-Factor Authentication (MFA) Issues",
+    "category": "Security",
+    "keywords": ["mfa", "2fa", "authenticator", "login", "otp", "security", "password"],
+    "content": "If you're not receiving MFA codes: 1) Check your device's time is set to automatic/network time, as authenticator apps rely on synced clocks. 2) Ensure you have network connectivity. 3) Use a backup code from when you registered MFA, if available. 4) If you've lost your device, raise a support ticket immediately so IT can revoke and re-enroll your MFA method."
+  }
+]
