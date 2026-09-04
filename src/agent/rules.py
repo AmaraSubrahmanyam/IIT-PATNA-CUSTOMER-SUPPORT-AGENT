@@ -5,6 +5,7 @@ from typing import Optional
 
 AFFIRMATIVE_WORDS = {"yes", "y", "yeah", "yep", "sure", "ok", "okay", "confirm", "correct", "proceed", "please"}
 NEGATIVE_WORDS = {"no", "n", "nope", "cancel", "stop", "don't", "dont", "never"}
+GREETING_WORDS = {"hi", "hello", "hey", "thanks", "thank you", "bye", "goodbye", "ok", "okay", "yes", "no"}
 
 EMPLOYEE_ID_PATTERN = re.compile(r"\bEMP\d{3,6}\b", re.IGNORECASE)
 
@@ -82,5 +83,11 @@ def rule_based_classify(text: str) -> dict:
 
     if employee_id:
         return {"tool_name": "employee_lookup", "tool_args": {"employee_id": employee_id}}
+
+    # Short bare-topic queries (e.g. "wifi", "vpn password", "printer") don't match any
+    # trigger phrase above but still clearly want knowledge base help, not small talk.
+    word_count = len(lower.split())
+    if word_count <= 4 and not any(g in lower for g in GREETING_WORDS):
+        return {"tool_name": "knowledge_search", "tool_args": {"query": text}}
 
     return {"tool_name": None, "tool_args": {}}

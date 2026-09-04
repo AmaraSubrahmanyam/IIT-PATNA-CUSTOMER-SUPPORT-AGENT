@@ -45,6 +45,9 @@ The assistant is a **LangGraph** state machine wrapped in a **Streamlit** chat U
 
 ## 3. Architecture
 
+Full architecture diagrams (system/component view + detailed LangGraph workflow) are in
+[docs/architecture.md](docs/architecture.md). Summary view:
+
 ```mermaid
 flowchart TD
     U[User message - Streamlit chat input] --> CI[classify_intent<br/>Intent / Decision Node]
